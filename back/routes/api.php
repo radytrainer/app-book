@@ -13,5 +13,4 @@ Route::post('books', [BookController::class, 'createBook']);
 Route::put('books/{id}', [BookController::class, 'updateBook']);
 Route::delete('books/{id}', [BookController::class, 'deleteBook']);
 
-
 Route::get('countries', [CountryController::class, 'getCountries']);
